@@ -1,0 +1,3 @@
+[submodule "s3-access-app"]
+	path = s3-access-app
+	url = https://github.com/INSANECRAB/eks-application-examples.git

@@ -1,6 +1,6 @@
 # eks-application-examples
-create some simple resources with AWS SDK and applications.
-In below case of "s3-access-app" it's for S3 bucket access with IRSA from a EKS pod.
+create some simple resources with AWS SDK and applications. \n
+In below case of "s3-access-app", it's for S3 bucket access with IRSA from an EKS pod.
 ```yaml
 # below is an example pod manifest with IRSA credential.
 apiVersion: v1

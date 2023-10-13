@@ -15,7 +15,7 @@ public class S3AccessApp {
 
         // S3 버킷의 객체 나열
         ListObjectsRequest listObjectsRequest = ListObjectsRequest.builder()
-                .bucket("global-mcp")
+                .bucket("bucket-name")
                 .build();
 
         ListObjectsResponse listObjectsResponse = s3Client.listObjects(listObjectsRequest);

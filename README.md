@@ -1,6 +1,6 @@
 # eks-application-examples
 create some simple resources with AWS SDK and applications.
-
+```yaml
 # below is an example pod manifest with IRSA credential.
 apiVersion: v1
 kind: Pod
@@ -37,3 +37,4 @@ spec:
               expirationSeconds: 86400
               path: token
   automountServiceAccountToken: true
+```
